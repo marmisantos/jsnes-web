@@ -24,13 +24,8 @@ class ListPage extends Component {
           <div className="row justify-content-center">
             <div className="col-md-8">
               <header className="mb-4">
-                <h1 className="mb-3">JSNES</h1>
-                <p>
-                  A JavaScript NES emulator.{" "}
-                  <a href="https://github.com/bfirsh/jsnes">
-                    Source on GitHub.
-                  </a>
-                </p>
+                <h1 className="mb-3">Play NES</h1>
+             
               </header>
 
               <ListGroup className="mb-4">
@@ -48,10 +43,7 @@ class ListPage extends Component {
                   ))}
               </ListGroup>
 
-              <p>
-                Or, drag and drop a ROM file onto the page to play it. (Google
-                may help you find them.)
-              </p>
+            
 
               {this.state.romLibrary.length > 0 ? (
                 <div>

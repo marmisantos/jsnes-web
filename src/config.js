@@ -2,85 +2,115 @@ import React from "react";
 
 const config = {
   ROMS: {
-    owlia: {
-      name: "The Legends of Owlia",
+    mario1: {
+      name: "Super Mario Brothers 1",
       description: (
         <span>
-          <a
-            href="http://www.gradualgames.com/p/the-legends-of-owlia_1.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Owlia by Gradual Games
-          </a>{" "}
-          /{" "}
-          <a
-            href="http://www.infiniteneslives.com/owlia.php"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Buy the cartridge
-          </a>
-        </span>
+          Super Mario Brothers 3 Nintendo
+        
+          </span>
       ),
-      url: "https://cdn.jsdelivr.net/gh/bfirsh/jsnes-roms@master/owlia.nes"
+      url: "/roms/SuperMario/mario1.nes"
     },
-    nomolos: {
-      name: "Nomolos: Storming the Catsle",
+    mario3: {
+      name: "Super Mario Brothers 3",
       description: (
         <span>
-          <a
-            href="http://www.gradualgames.com/p/nomolos-storming-catsle.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Monolos by Gradual Games
-          </a>{" "}
-          /{" "}
-          <a
-            href="http://www.infiniteneslives.com/nomolos.php"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Buy the cartridge
-          </a>
-        </span>
+          Super Mario 3 Nintendo
+        
+          </span>
       ),
-      url: "https://cdn.jsdelivr.net/gh/bfirsh/jsnes-roms@master/nomolos.nes"
+      url: "/roms/SuperMario/mario3.nes"
     },
-    croom: {
-      name: "Concentration Room",
+	
+    contra: {
+      name: "contra",
       description: (
         <span>
-          <a
-            href="http://www.pineight.com/croom/README"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Concentration Room
-          </a>{" "}
-          by Damian Yerrick
-        </span>
+          contra
+        
+          </span>
       ),
-      url:
-        "https://cdn.jsdelivr.net/gh/bfirsh/jsnes-roms@master/croom/croom.nes"
+      url: "/roms/contra/contra.nes"
     },
-    lj65: {
-      name: "LJ65",
+		
+    BattleCity: {
+      name: "BattleCity",
       description: (
         <span>
-          <a
-            href="http://harddrop.com/wiki/LJ65"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Concentration Room
-          </a>{" "}
-          by Damian Yerrick
-        </span>
+          BattleCity
+        
+          </span>
       ),
-      url: "https://cdn.jsdelivr.net/gh/bfirsh/jsnes-roms@master/lj65/lj65.nes"
-    }
+      url: "/roms/BattleCity/BattleCity.nes"
+    },
+	 Megaman2: {
+      name: "Megaman2",
+      description: (
+        <span>
+          Megaman2
+        
+          </span>
+      ),
+      url: "/roms/Megaman2/Megaman2.nes"
+    },
+	
+	
+		 LegendofZelda: {
+      name: "Legend of Zelda",
+      description: (
+        <span>
+          Legend of Zelda
+        
+          </span>
+      ),
+      url: "/roms/Legend of Zelda/Legend of Zelda.nes"
+    },
+	
+		 DuckTales: {
+      name: "Duck Tales",
+      description: (
+        <span>
+          Duck Tales
+        
+          </span>
+      ),
+      url: "/roms/Duck Tales/Duck Tales.nes"
+    },
+			 excitebike: {
+      name: "excite bike",
+      description: (
+        <span>
+          excite bike
+        
+          </span>
+      ),
+      url: "/roms/excite bike/excite bike.nes"
+    },
+	
+		 MightyFinalFight: {
+      name: "Mighty Final Fight",
+      description: (
+        <span>
+         Mighty Final Fight
+        
+          </span>
+      ),
+      url: "/roms/Mighty Final Fight/Mighty Final Fight.nes"
+    },
+	
+	 tetris2: {
+      name: "tetris2",
+      description: (
+        <span>
+         tetris2
+        
+          </span>
+      ),
+      url: "/roms/tetris2/tetris2.nes"
+    },
+	
+	
   },
   GOOGLE_ANALYTICS_CODE: process.env.REACT_APP_GOOGLE_ANALYTICS_CODE,
   SENTRY_URI: process.env.REACT_APP_SENTRY_URI
