@@ -109,7 +109,17 @@ const config = {
       ),
       url: "/roms/tetris2/tetris2.nes"
     },
-	
+
+	   CobraTriangle: {
+      name: "CobraTrianle",
+      description: (
+        <span>
+         Cobra Triangle
+        
+          </span>
+      ),
+      url: "/roms/lj65/Cobra Triangle.nes"
+    },
 	
   },
   GOOGLE_ANALYTICS_CODE: process.env.REACT_APP_GOOGLE_ANALYTICS_CODE,
